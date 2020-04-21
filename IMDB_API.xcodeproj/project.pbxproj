@@ -13,6 +13,8 @@
 		3E67B3AA244E50B500F619B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E67B3A8244E50B500F619B8 /* Main.storyboard */; };
 		3E67B3AC244E50B800F619B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E67B3AB244E50B800F619B8 /* Assets.xcassets */; };
 		3E67B3AF244E50B800F619B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E67B3AD244E50B800F619B8 /* LaunchScreen.storyboard */; };
+		3E67B3B7244E513D00F619B8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E67B3B6244E513D00F619B8 /* Movie.swift */; };
+		3EDBEB1B244E6522006593B0 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDBEB1A244E6522006593B0 /* APIKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3E67B3AB244E50B800F619B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E67B3AE244E50B800F619B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E67B3B0244E50B800F619B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E67B3B6244E513D00F619B8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		3EDBEB1A244E6522006593B0 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				3E67B3A2244E50B500F619B8 /* AppDelegate.swift */,
 				3E67B3A4244E50B500F619B8 /* SceneDelegate.swift */,
+				3E67B3B6244E513D00F619B8 /* Movie.swift */,
 				3E67B3A6244E50B500F619B8 /* ViewController.swift */,
 				3E67B3A8244E50B500F619B8 /* Main.storyboard */,
 				3E67B3AB244E50B800F619B8 /* Assets.xcassets */,
 				3E67B3AD244E50B800F619B8 /* LaunchScreen.storyboard */,
 				3E67B3B0244E50B800F619B8 /* Info.plist */,
+				3EDBEB1A244E6522006593B0 /* APIKeys.swift */,
 			);
 			path = IMDB_API;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E67B3A7244E50B500F619B8 /* ViewController.swift in Sources */,
+				3EDBEB1B244E6522006593B0 /* APIKeys.swift in Sources */,
 				3E67B3A3244E50B500F619B8 /* AppDelegate.swift in Sources */,
+				3E67B3B7244E513D00F619B8 /* Movie.swift in Sources */,
 				3E67B3A5244E50B500F619B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
